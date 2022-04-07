@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A4BDEDF127FEB75A00F3D6B4 /* GraphSeismometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDEDF027FEB75A00F3D6B4 /* GraphSeismometerApp.swift */; };
-		A4BDEDF327FEB75A00F3D6B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDEDF227FEB75A00F3D6B4 /* ContentView.swift */; };
+		A4BDEDF327FEB75A00F3D6B4 /* GraphSeismometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDEDF227FEB75A00F3D6B4 /* GraphSeismometer.swift */; };
 		A4BDEDF527FEB75D00F3D6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BDEDF427FEB75D00F3D6B4 /* Assets.xcassets */; };
 		A4BDEDF827FEB75D00F3D6B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BDEDF727FEB75D00F3D6B4 /* Preview Assets.xcassets */; };
+		A4BDEDFF27FEB7AA00F3D6B4 /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDEDFE27FEB7AA00F3D6B4 /* MotionDetector.swift */; };
+		A4BDEE0127FEB7CF00F3D6B4 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDEE0027FEB7CF00F3D6B4 /* LineGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4BDEDED27FEB75A00F3D6B4 /* GraphSeismometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphSeismometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BDEDF027FEB75A00F3D6B4 /* GraphSeismometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSeismometerApp.swift; sourceTree = "<group>"; };
-		A4BDEDF227FEB75A00F3D6B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4BDEDF227FEB75A00F3D6B4 /* GraphSeismometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSeismometer.swift; sourceTree = "<group>"; };
 		A4BDEDF427FEB75D00F3D6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4BDEDF727FEB75D00F3D6B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4BDEDFE27FEB7AA00F3D6B4 /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
+		A4BDEE0027FEB7CF00F3D6B4 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				A4BDEDF027FEB75A00F3D6B4 /* GraphSeismometerApp.swift */,
-				A4BDEDF227FEB75A00F3D6B4 /* ContentView.swift */,
+				A4BDEDFE27FEB7AA00F3D6B4 /* MotionDetector.swift */,
+				A4BDEDF227FEB75A00F3D6B4 /* GraphSeismometer.swift */,
+				A4BDEE0027FEB7CF00F3D6B4 /* LineGraph.swift */,
 				A4BDEDF427FEB75D00F3D6B4 /* Assets.xcassets */,
 				A4BDEDF627FEB75D00F3D6B4 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4BDEDF327FEB75A00F3D6B4 /* ContentView.swift in Sources */,
+				A4BDEE0127FEB7CF00F3D6B4 /* LineGraph.swift in Sources */,
+				A4BDEDF327FEB75A00F3D6B4 /* GraphSeismometer.swift in Sources */,
 				A4BDEDF127FEB75A00F3D6B4 /* GraphSeismometerApp.swift in Sources */,
+				A4BDEDFF27FEB7AA00F3D6B4 /* MotionDetector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
