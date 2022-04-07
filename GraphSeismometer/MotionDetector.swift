@@ -7,8 +7,6 @@ class MotionDetector: ObservableObject {
     private var timer = Timer()
     private var updateInterval: TimeInterval
 
-    @Published var pitch: Double = 0
-    @Published var roll: Double = 0
     @Published var zAcceleration: Double = 0
 
     var onUpdate: (() -> Void) = {}
@@ -46,7 +44,6 @@ class MotionDetector: ObservableObject {
     
     func updateMotionData() {
         if let data = motionManager.deviceMotion {
-            (roll, pitch) = currentOrientation.adjustedRollAndPitch(data.attitude)
             zAcceleration = data.userAcceleration.z
 
             onUpdate()
