@@ -5,9 +5,6 @@ struct GraphSeismometer: View {
     @State private var data = [Double]()
     let maxData = 1000
 
-    let graphMaxValue = 1.0
-    let graphMinValue = -1.0
-
     var body: some View {
         VStack {
             Spacer()
